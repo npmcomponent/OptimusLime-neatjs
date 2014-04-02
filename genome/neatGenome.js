@@ -3,7 +3,7 @@
  */
 
 //pull in our cppn lib
-var cppnjs = require('cppnjs');
+var cppnjs = require('optimuslime-cppnjs');
 
 //grab our activation factory, cppn object and connections
 var CPPNactivationFactory = cppnjs.cppnActivationFactory;
@@ -19,7 +19,7 @@ var neatHelp =  require('../neatHelp/neatHelp.js');
 var neatParameters =  require('../neatHelp/neatParameters.js');
 var neatDecoder =  require('../neatHelp/neatDecoder.js');
 
-var wUtils = require('win-utils');
+var wUtils = require('optimuslime-win-utils');
 var uuid = wUtils.cuid;
 
 //going to need to read node types appropriately

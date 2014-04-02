@@ -5,7 +5,7 @@
 var NeatGenome = require('../genome/neatGenome.js');
 
 //pull in variables from cppnjs
-var cppnjs = require('cppnjs');
+var cppnjs = require('optimuslime-cppnjs');
 var utilities =  cppnjs.utilities;
 
 /**

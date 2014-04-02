@@ -1,7 +1,7 @@
 /**
 * Module dependencies.
 */
-var uuid = require('win-utils').cuid;
+var uuid = require('optimuslime-win-utils').cuid;
 /**
 * Expose `neatHelp`.
 */

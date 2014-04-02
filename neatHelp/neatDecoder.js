@@ -3,7 +3,7 @@
  */
 
 //pull in our cppn lib
-var cppnjs = require('cppnjs');
+var cppnjs = require('optimuslime-cppnjs');
 
 //grab our activation factory, cppn object and connections
 var CPPNactivationFactory = cppnjs.cppnActivationFactory;
